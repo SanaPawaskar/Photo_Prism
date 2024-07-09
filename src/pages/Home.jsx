@@ -1,9 +1,13 @@
 import {} from 'react'
+import HeroSection from '../compnents/HeroSection'
 
-export default function Home() {
+const Home = () => {
   return (
     <div>
-      Home
+  <HeroSection/>      
     </div>
   )
 }
+
+export default Home
+

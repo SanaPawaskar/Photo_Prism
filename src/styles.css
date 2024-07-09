@@ -1,0 +1,87 @@
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin: 1em;
+    border-bottom: 2px solid;
+    color: rgb(227, 224, 224);
+    }
+.nav-items {
+   display: flex;
+   justify-content: space-between;
+   gap: 2em;
+   color: rgb(101, 100, 100);
+   list-style-type: none;
+}
+ .nav-items Link{
+    cursor: pointer; /* Changes the cursor to a pointer */
+    transition: color 0.3s; /* Smooth transition */
+  }
+.nav-items :hover {
+    color: black; /* Changes text color to black on hover */
+  }
+.Logo-name-div{
+    font-weight: 800;
+    margin-top: 1.2em;
+    color: black;
+}
+@media (max-width: 768px) {
+    .nav-items {
+       display: flex;
+       justify-content: space-between;
+       gap: 1em;
+    }
+}
+
+/****** HEROSECTION ****/
+.search-container{
+   display:flex;
+   justify-content: center;
+   align-items: center;
+}
+.input-search-field{
+    border: none;
+    outline: none; /* Removes the outline */
+    border-bottom: 2px solid;
+    font-size: 1.9em;   
+    color: rgb(227, 224, 224);
+    
+}
+@media (max-width: 768px) {
+     .input-search-field{
+        font-size: 1.4em;   
+        }
+}
+/*****SIGNUP****/
+
+.signup-div{
+    margin-top: 5rem;
+    /* min-height: 100vh; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+  
+}
+.container-signup{
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 1.5rem;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    /* padding-top: 1.5rem; */
+    padding-bottom: 1.5rem;
+   
+}
+.form-div{
+    display: grid;
+    margin: 1em;
+    gap: 1em;
+}
+.name{
+    border-radius: 6em ;
+    border-color: white;
+    border-style: none;
+    width: 18em;
+    height: 2em;
+    }
